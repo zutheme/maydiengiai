@@ -1,0 +1,3 @@
+2020-10-03T09:21:33+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 4ad68f56dbdcb106b6aa402ebd82cd4d
+2020-10-03T09:21:37+00:00 NOTICE abandoned_cart.success :: email: zu@gmail.com :: checkout_url: http://shop.vhl.com.vn/?page_id=12&mc_cart_id=4ad68f56dbdcb106b6aa402ebd82cd4d
+2020-10-03T09:21:40+00:00 NOTICE cart.member.updated :: Updated zu@gmail.com subscriber status to transactional and language to en

@@ -1,0 +1,72 @@
+2020-10-06T15:21:31+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 5ef6d4a8c892f
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 8f8afabd7a
+            [name] => fashion
+            [domain] => http://shop.vhl.com.vn
+            [email_address] => hatazu@gmail.com
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => vi
+            [timezone] => +07:00
+            [phone] => 0967655819
+            [address] => Array
+                (
+                    [address1] => thu duc
+                    [city] => ho chi minh
+                    [province] => tp ho chi minh
+                    [postal_code] => 700000
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0967655819
+                    [company] => fashion
+                )
+
+        )
+
+)
+
+2020-10-06T15:35:24+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 5ef6d4a8c892f
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 8f8afabd7a
+            [name] => fashion
+            [domain] => http://shop.vhl.com.vn
+            [email_address] => hatazu@gmail.com
+            [currency_code] => VND
+            [money_format] => ₫
+            [primary_locale] => vi
+            [timezone] => +07:00
+            [phone] => 0967655819
+            [address] => Array
+                (
+                    [address1] => thu duc
+                    [city] => ho chi minh
+                    [province] => tp ho chi minh
+                    [postal_code] => 700000
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0967655819
+                    [company] => fashion
+                )
+
+        )
+
+)
+
+2020-10-06T15:42:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 419
+2020-10-06T15:42:29+00:00 NOTICE debug :: Order ID 419 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-10-06T15:44:47+00:00 NOTICE system.debug :: order 419 is in on-hold status, and is being skipped for now.

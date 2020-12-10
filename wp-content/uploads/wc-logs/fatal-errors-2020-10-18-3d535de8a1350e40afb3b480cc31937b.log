@@ -1,0 +1,72 @@
+2020-10-18T11:08:08+00:00 CRITICAL Uncaught Error: Call to undefined function the_excertp() in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php:62
+Stack trace:
+#0 C:\xampp\htdocs\course\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\course\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\course\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\course\wp-content\themes\hatazu_water\page-template.php(25): get_template_part('layouts/block-n...')
+#4 C:\xampp\htdocs\course\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\course\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\course\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php on line 62
+
+2020-10-18T11:08:44+00:00 CRITICAL Uncaught Error: Call to undefined function the_excertp() in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php:62
+Stack trace:
+#0 C:\xampp\htdocs\course\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\course\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\course\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\course\wp-content\themes\hatazu_water\page-template.php(25): get_template_part('layouts/block-n...')
+#4 C:\xampp\htdocs\course\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\course\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\course\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php on line 62
+
+2020-10-18T11:10:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_excerpt_max() in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php:62
+Stack trace:
+#0 C:\xampp\htdocs\course\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\course\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\course\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\course\wp-content\themes\hatazu_water\page-template.php(25): get_template_part('layouts/block-n...')
+#4 C:\xampp\htdocs\course\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\course\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\course\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php on line 62
+
+2020-10-18T11:10:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_excerpt_max() in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php:62
+Stack trace:
+#0 C:\xampp\htdocs\course\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\course\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\course\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\course\wp-content\themes\hatazu_water\page-template.php(25): get_template_part('layouts/block-n...')
+#4 C:\xampp\htdocs\course\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\course\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\course\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php on line 62
+
+2020-10-18T11:11:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_excerpt_max() in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php:62
+Stack trace:
+#0 C:\xampp\htdocs\course\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\course\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\course\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\course\wp-content\themes\hatazu_water\page-template.php(25): get_template_part('layouts/block-n...')
+#4 C:\xampp\htdocs\course\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\course\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\course\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php on line 62
+
+2020-10-18T11:12:36+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_excerpt_max() in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php:62
+Stack trace:
+#0 C:\xampp\htdocs\course\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\course\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\course\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\course\wp-content\themes\hatazu_water\page-template.php(25): get_template_part('layouts/block-n...')
+#4 C:\xampp\htdocs\course\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\course\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\course\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\course\wp-content\themes\hatazu_water\layouts\block-news.php on line 62
+

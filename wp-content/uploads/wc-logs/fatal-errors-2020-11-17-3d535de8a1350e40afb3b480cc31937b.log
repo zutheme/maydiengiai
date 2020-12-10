@@ -1,0 +1,22 @@
+2020-11-17T04:35:51+00:00 CRITICAL syntax error, unexpected 'get_field' (T_STRING) in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\layouts\new-arrival.php on line 5
+
+2020-11-17T11:22:09+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\layouts\top-rated.php on line 20
+
+2020-11-17T11:23:35+00:00 CRITICAL syntax error, unexpected '{' in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\woocommerce\content-product.php on line 27
+
+2020-11-17T11:24:31+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\layouts\top-rated.php on line 20
+
+2020-11-17T11:25:19+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\layouts\top-rated.php on line 20
+
+2020-11-17T11:39:48+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\woocommerce\content-product.php on line 30
+
+2020-11-17T13:23:40+00:00 CRITICAL Uncaught Error: Call to undefined function custom_woocommerce_form_field_plugin() in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\woocommerce\myaccount\form-edit-address.php:43
+Stack trace:
+#0 C:\xampp\htdocs\fashion\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\fashion\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(220): wc_get_template('myaccount/form-...', Array)
+#2 C:\xampp\htdocs\fashion\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3165): WC_Shortcode_My_Account::edit_address('billing')
+#3 C:\xampp\htdocs\fashion\wp-includes\class-wp-hook.php(287): woocommerce_account_edit_address('billing')
+#4 C:\xampp\htdocs\fashion\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\fashion\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\fashion\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3076): do_action('woocommerc in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_water\woocommerce\myaccount\form-edit-address.php on line 43
+

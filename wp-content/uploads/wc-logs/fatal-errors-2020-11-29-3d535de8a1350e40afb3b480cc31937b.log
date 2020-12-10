@@ -1,0 +1,8 @@
+2020-11-29T12:45:59+00:00 CRITICAL Uncaught Error: Call to undefined function custom_breadcrumbs_htz() in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_fashion\single.php:17
+Stack trace:
+#0 C:\xampp\htdocs\fashion\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\fashion\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\fashion\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\fashion\wp-content\themes\hatazu_fashion\single.php on line 17
+
