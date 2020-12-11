@@ -280,6 +280,12 @@ if( function_exists('acf_add_local_field_group') ) {
 				'type'  		=> 'image',
 			),
 			array (
+				'key'   		=> 'barner_promotion_img_mobile',
+				'label' 		=> __( 'Anh banner (380 x 280)', 'htz' ),
+				'name'  		=> 'barner_promotion_img_mobile',
+				'type'  		=> 'image',
+			),
+			array (
 				'key'   		=> 'barner_promotion_link',
 				'label' 		=> __( 'Liến kết banner', 'htz' ),
 				'name'  		=> 'barner_promotion_link',
