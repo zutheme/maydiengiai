@@ -1,9 +1,9 @@
 <?php
  wp_nav_menu( array(
 
-      'theme_location'    => 'menu-1',
+      'theme_location'    => 'menu-2',
 
-      'menu'              => "menu-1",
+      'menu'              => "menu-2",
 
       'depth'             => 4,
 

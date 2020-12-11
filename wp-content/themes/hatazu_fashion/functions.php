@@ -46,6 +46,7 @@ if ( ! function_exists( 'hatazu_water_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'hatazu_water' ),
+			'menu-2' => esc_html__( 'Second menu', 'hatazu_water' ),
 			'footer-1' => esc_html__( 'footer 1', 'hatazu_water' ),
 			'footer-2' => esc_html__( 'footer 2', 'hatazu_water' ),
 			'footer-3' => esc_html__( 'footer 3', 'hatazu_water' ),
