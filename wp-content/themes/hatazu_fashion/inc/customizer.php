@@ -44,7 +44,12 @@ if( function_exists('acf_add_local_field_group') ) {
 				'name'  		=> 'logo',
 				'type'  		=> 'image',
 			),
-			
+			 array (
+				'key'   		=> 'logo_mobile',
+				'label' 		=> __( 'Logo mobile (180 x 50)', 'htz' ),
+				'name'  		=> 'logo_mobile',
+				'type'  		=> 'image',
+			),
 			 array (
 				'key'   		=> 'favicon',
 				'label' 		=> __( 'Favicon', 'htz' ),
@@ -138,14 +143,31 @@ if( function_exists('acf_add_local_field_group') ) {
 				'type'  		=> 'text',
 			),
 			
-		  
 		    array (
-				'key'   		=> 'idfacebook',
-				'label' 		=> __( 'Idfacebook', 'htz' ),
-				'name'  		=> 'idfacebook',
+				'key'   		=> 'link-facebook',
+				'label' 		=> __( 'link facebook', 'htz' ),
+				'name'  		=> 'link-facebook',
 				'type'  		=> 'text',
 			),
-		 	
+		 	 array (
+				'key'   		=> 'link-youtube',
+				'label' 		=> __( 'link youtube', 'htz' ),
+				'name'  		=> 'link-youtube',
+				'type'  		=> 'text',
+			),
+		 	  array (
+				'key'   		=> 'link-intagram',
+				'label' 		=> __( 'link intagram', 'htz' ),
+				'name'  		=> 'link-intagram',
+				'type'  		=> 'text',
+			),
+		 	   array (
+				'key'   		=> 'link-twiter',
+				'label' 		=> __( 'link twiter', 'htz' ),
+				'name'  		=> 'link-twiter',
+				'type'  		=> 'text',
+			),
+
      	/*slider*/
 		  array (
 				'key'   		=> 'tab_slider',
@@ -398,13 +420,18 @@ if( function_exists('acf_add_local_field_group') ) {
 				'name'  		=> 'latest_header',
 				'type'  		=> 'text',
 			),
-			// array (
-			// 	'key'   		=> 'latest_html',
-			// 	'label' 		=> __( 'html', 'htz' ),
-			// 	'name'  		=> 'latest_html',
-			// 	'type'  		=> 'textarea',
-			 
-			// ),
+			array (
+				'key'   		=> 'about_title',
+				'label' 		=> __( 'about title', 'htz' ),
+				'name'  		=> 'about_title',
+				'type'  		=> 'text',
+			 ),
+			array (
+				'key'   		=> 'about_blog',
+				'label' 		=> __( 'about blog', 'htz' ),
+				'name'  		=> 'about_blog',
+				'type'  		=> 'textarea',
+			 ),
 			 /*tab trang lien he*/
 			  array (
 					'key'   		=> 'contact',

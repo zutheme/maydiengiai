@@ -1,4 +1,6 @@
-<?php $logo = get_field('logo','customizer'); ?>
+<?php $logo = get_field('logo','customizer'); 
+    $logo_mobile = get_field('logo_mobile','customizer');
+?>
 <!-- mobile site__header -->
 <header class="site__header d-lg-none">
     <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
@@ -12,7 +14,7 @@
                         </svg>
                     </button>
                     <a class="mobile-header__logo" href="<?php bloginfo('url'); ?>">
-                        <img src="<?php echo $logo['url']; ?>">
+                        <img src="<?php echo $$logo_mobile['url']; ?>">
                     </a>
                     <div class="search search--location--mobile-header mobile-header__search">
                         <div class="search__body">

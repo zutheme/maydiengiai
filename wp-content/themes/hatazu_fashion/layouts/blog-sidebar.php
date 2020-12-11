@@ -14,10 +14,9 @@
 </div>
 <div class="block-sidebar__item">
     <div class="widget-aboutus widget">
-        <h4 class="widget__title">About Blog</h4>
+        <h4 class="widget__title"><?php echo get_field('about_title','customizer'); ?></h4>
         <div class="widget-aboutus__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, erat in malesuada aliquam, est erat faucibus purus,
-            eget viverra nulla sem vitae neque. Quisque id sodales libero.
+            <?php echo get_field('about_blog','customizer'); ?>
         </div>
         <!-- social-links -->
         <div class="social-links widget-aboutus__socials social-links--shape--rounded">
