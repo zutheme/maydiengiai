@@ -22,5 +22,5 @@ get_template_part('layouts/popular-category');
 get_template_part('layouts/new-arrival');
 get_template_part('layouts/latestnews');
 get_template_part('layouts/brand');
-get_template_part('layouts/top-rated');
+//get_template_part('layouts/top-rated');
 get_footer(); 

@@ -191,7 +191,12 @@ if( function_exists('acf_add_local_field_group') ) {
 						'name'  		=> 'image_slider',
 						'type'  		=> 'image',
 					),
-	
+					array (
+						'key'   		=> 'image_slider_mobile',
+						'label' 		=> __( 'Hình ảnh ,mobile', 'htz' ),
+						'name'  		=> 'image_slider_mobile',
+						'type'  		=> 'image',
+					),
 					array (
 						'key'   		=> 'link_slider',
 						'label' 		=> __( 'Link', 'htz' ),
