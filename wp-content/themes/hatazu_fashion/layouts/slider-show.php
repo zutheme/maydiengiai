@@ -14,7 +14,7 @@
 					                        <!-- SLIDE #1 -->
 					                     <a class="block-slideshow__slide" href="<?php echo $value['link_slider'];  ?>">
 					                            <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop" style="background-image: url('<?php echo $value['image_slider']['url'] ;?>')"></div>
-					                            <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url('<?php echo $value['image_slider']['url'] ;?>')"></div>
+					                            <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile" style="background-image: url('<?php echo $value['image_slider_mobile']['url'] ;?>')"></div>
 					                           <!--  <div class="block-slideshow__slide-content">
 					                                <?php  //echo $value['tex1_slider'];  ?>
 					                                <div class="block-slideshow__slide-button">
