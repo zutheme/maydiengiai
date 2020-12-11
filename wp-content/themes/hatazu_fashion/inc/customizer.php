@@ -182,7 +182,7 @@ if( function_exists('acf_add_local_field_group') ) {
 				'label' 		=> __( 'Hình slider (840x395)', 'htz' ),
 				'name'  		=> 'slider',
 				'type'  		=> 'repeater',
-				'layout'	   => 'block',
+				'layout'	   => 'table',
 				'button_label' => __( 'Thêm', 'htz' ),
 				'sub_fields' => array (
 					array (
@@ -205,13 +205,13 @@ if( function_exists('acf_add_local_field_group') ) {
 					 
 					),
 					
-				 	array (
-						'key'   		=> 'tex1_slider',
-						'label' 		=> __( 'text 1', 'htz' ),
-						'name'  		=> 'tex1_slider',
-						'type'  		=> 'textarea',
+				 // 	array (
+					// 	'key'   		=> 'tex1_slider',
+					// 	'label' 		=> __( 'text 1', 'htz' ),
+					// 	'name'  		=> 'tex1_slider',
+					// 	'type'  		=> 'textarea',
 					 
-					),
+					// ),
 				 
 				),
 			),
