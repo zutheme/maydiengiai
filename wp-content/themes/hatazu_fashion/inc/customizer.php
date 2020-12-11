@@ -179,7 +179,7 @@ if( function_exists('acf_add_local_field_group') ) {
 	
 				array (
 				'key'   		=> 'slider',
-				'label' 		=> __( 'Hình slider (840x395)', 'htz' ),
+				'label' 		=> __( 'Hình slider', 'htz' ),
 				'name'  		=> 'slider',
 				'type'  		=> 'repeater',
 				'layout'	   => 'table',
@@ -187,13 +187,13 @@ if( function_exists('acf_add_local_field_group') ) {
 				'sub_fields' => array (
 					array (
 						'key'   		=> 'image_slider',
-						'label' 		=> __( 'Hình ảnh', 'htz' ),
+						'label' 		=> __( 'Hình ảnh (840x395)', 'htz' ),
 						'name'  		=> 'image_slider',
 						'type'  		=> 'image',
 					),
 					array (
 						'key'   		=> 'image_slider_mobile',
-						'label' 		=> __( 'Hình ảnh ,mobile', 'htz' ),
+						'label' 		=> __( 'Hình ảnh mobile (380 x 395)', 'htz' ),
 						'name'  		=> 'image_slider_mobile',
 						'type'  		=> 'image',
 					),
