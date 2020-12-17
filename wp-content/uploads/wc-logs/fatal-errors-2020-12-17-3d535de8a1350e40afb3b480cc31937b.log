@@ -1,0 +1,68 @@
+2020-12-17T02:41:32+00:00 CRITICAL Uncaught Error: Class 'WP_REST_Application_Passwords_Controller' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php:269
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): create_initial_rest_routes()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(521): do_action()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(479): rest_get_server()
+#5 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(2520): rest_do_request()
+#6 [internal function]: rest_preload_api_request()
+#7 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-admin/edit-form-blocks.php(82): array_reduce()
+ in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php on line 269
+
+2020-12-17T02:41:43+00:00 CRITICAL Uncaught Error: Class 'WP_REST_Application_Passwords_Controller' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php:269
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): create_initial_rest_routes()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(521): do_action()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(479): rest_get_server()
+#5 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(2520): rest_do_request()
+#6 [internal function]: rest_preload_api_request()
+#7 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-admin/edit-form-blocks.php(82): array_reduce()
+ in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php on line 269
+
+2020-12-17T02:42:29+00:00 CRITICAL Uncaught Error: Class 'WP_REST_Application_Passwords_Controller' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php:269
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): create_initial_rest_routes()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(521): do_action()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(479): rest_get_server()
+#5 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(2520): rest_do_request()
+#6 [internal function]: rest_preload_api_request()
+#7 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-admin/edit-form-blocks.php(82): array_reduce()
+ in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php on line 269
+
+2020-12-17T02:42:44+00:00 CRITICAL Uncaught Error: Class 'WP_REST_Application_Passwords_Controller' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php:269
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): create_initial_rest_routes()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(521): do_action()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(479): rest_get_server()
+#5 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(2520): rest_do_request()
+#6 [internal function]: rest_preload_api_request()
+#7 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-admin/edit-form-blocks.php(82): array_reduce()
+ in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php on line 269
+
+2020-12-17T02:43:18+00:00 CRITICAL Uncaught Error: Class 'WP_REST_Application_Passwords_Controller' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php:269
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): create_initial_rest_routes()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(521): do_action()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/RestApi.php(45): rest_get_server()
+#5 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets.php(180): Automattic\WooCommerce\Blocks\RestApi->get_routes_from_namespace()
+#6 /home/diengia in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php on line 269
+
+2020-12-17T02:45:51+00:00 CRITICAL Uncaught Error: Class 'WP_Application_Passwords' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php:316
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): wp_authenticate_application_password()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/pluggable.php(549): apply_filters()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php(95): wp_authenticate()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-login.php(1248): wp_signon()
+#5 {main}
+  thrown in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php on line 316
+

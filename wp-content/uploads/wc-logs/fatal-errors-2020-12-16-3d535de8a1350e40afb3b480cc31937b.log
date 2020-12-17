@@ -1,0 +1,31 @@
+2020-12-16T21:32:34+00:00 CRITICAL Uncaught Error: Class 'WP_REST_Application_Passwords_Controller' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php:269
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): create_initial_rest_routes()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(521): do_action()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php(347): rest_get_server()
+#5 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): rest_api_loaded()
+#6 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#7 /home/diengiai/domains/maylocnuoc in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/rest-api.php on line 269
+
+2020-12-16T21:32:37+00:00 CRITICAL Uncaught Error: Class 'WP_Application_Passwords' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php:316
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): wp_authenticate_application_password()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/pluggable.php(549): apply_filters()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php(95): wp_authenticate()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-login.php(1248): wp_signon()
+#5 {main}
+  thrown in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php on line 316
+
+2020-12-16T23:13:47+00:00 CRITICAL Uncaught Error: Class 'WP_Application_Passwords' not found in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php:316
+Stack trace:
+#0 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/class-wp-hook.php(287): wp_authenticate_application_password()
+#1 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#2 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/pluggable.php(549): apply_filters()
+#3 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php(95): wp_authenticate()
+#4 /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-login.php(1248): wp_signon()
+#5 {main}
+  thrown in /home/diengiai/domains/maylocnuocdiengiai.org/public_html/wp-includes/user.php on line 316
+
