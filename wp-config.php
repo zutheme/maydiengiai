@@ -26,7 +26,7 @@ define( 'DB_USER', 'diengiai_db' );
 define( 'DB_PASSWORD', 'cp9IALMeE' );
 /** Hostname của database */
 define( 'DB_HOST', 'localhost' );
-// define( 'DB_HOST', '45.117.168.156' );
+//define( 'DB_HOST', '45.117.170.42' );
 /** Database charset sử dụng để tạo bảng database. */
 define( 'DB_CHARSET', 'utf8mb4' );
 /** Kiểu database collate. Đừng thay đổi nếu không hiểu rõ. */
